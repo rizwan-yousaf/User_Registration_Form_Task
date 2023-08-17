@@ -1,0 +1,74 @@
+.container {
+  margin-top: 50px;
+}
+.allowed-submit{opacity: .5;cursor: not-allowed;}
+.valid-input{
+  border:1px solid green !important;
+}
+.invalid-input{
+  border:1px solid red !important;
+}
+.invalid-msg{
+  color: red;
+}
+.validation-form h3{
+  text-align:center;
+  padding:5px 0px;
+}
+.validation-form{
+  background:#dad9d9;
+  padding:10px 30px;
+}
+.validation-form .form-group{
+  margin:15px 0px;
+}
+.validation-form .form-group input{
+  padding:10px;
+  width:94%;
+  boz-sizing:border-box;
+  border:none;
+}
+.validation-form .form-group input:focus{
+  outline:unset;
+}
+.validation-form .form-group input[type="submit"]{
+  font-size:20px;
+  background-color: green;
+  color:white;
+  padding:10px 30px;
+  border:none;
+}
+.btn-alignment{
+  margin-top: 30px;
+  text-align:center;
+}
+.btn-color{
+  background-color: green;
+  color:white;
+  padding:10px 30px;
+  border:none;
+  border-radius: 8px;
+}
+.required-sign{
+  color:red;
+}
+#passwordStrength {
+  margin-top: 5px;
+}
+.password-input {
+  position: relative;
+}
+.toggle-hide-show {
+  position: absolute;
+  top: 50%;
+  right: 77px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.password-confirmation-toggle-hide-show {
+  position: absolute;
+  top: 50%;
+  right: 77px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
